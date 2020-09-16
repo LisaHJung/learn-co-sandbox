@@ -1,0 +1,22 @@
+bands = {
+  joy_division: [bernard,ian, peter, stephen],
+  the_smiths: %w[andy, jack, mike, evan],
+  the_cramps: %w[ivy, lisa nick],
+  blondie: %w[ chris clem, hannah jimmy nigel],
+  talking_heads: %w[chris, David, jerry]
+}
+
+memo = Ian
+sorted_namese = [bernard,ian, peter, stephen]
+bernard = if bernard<=Ian
+
+memo = bernard
+sorted_names = [andy, jack, mike, evan]
+memo =andy <= bernard
+
+
+memo = andy
+sorted_names = [ivy, lisa nick]
+
+memo = ivy <= andy
+memo= andy
